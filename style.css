@@ -1,0 +1,23 @@
+#search {
+    border-color: red;
+    border-width: 10px;
+    width: 50%;
+}
+
+#user-logo {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+#top-left-menu {
+    width: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+.test {
+    color: blue;
+}
