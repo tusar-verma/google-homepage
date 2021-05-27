@@ -1,12 +1,6 @@
-html{
-    font-family: Roboto, 'Times New Roman', Times, serif;
-    
-}
-
-#search {
-    border-color: red;
-    border-width: 10px;
-    width: 50%;
+html,body{
+    font-family: Roboto, 'Times New Roman', Times, serif;    
+    margin:0;
 }
 
 #user-logo {
@@ -22,14 +16,54 @@ html{
     
 }
 
+.buttons {
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+.buttons:hover {
+    box-shadow: 0 0 2px rgb(92, 91, 91) ;
+    color: red;
+}
+
 #allelements {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
+#biglogo {
+    width: 300px;
+    align-self: center;
+}
+#search-container {
+    position: relative;
+}
+#voice-icon {
+    position: absolute;
+    right: 15;
+    top: 28px;
+}
+
+#googlespanish {
+    margin: 50px;
+}
+
 #search-bar {
-    width: 40%;
+    width: 600px;
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: 0;
+    border-radius: 15px;
+    border: 2px solid #eee
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 6px 2px rgb(236, 233, 233);
 }
 
 #imgcontainer {
@@ -44,8 +78,25 @@ html{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 180px;
+    justify-content: center;
     flex-grow: 1;
+}
+
+#search-icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: 32px;
+    left: 15px;
+
+}
+
+#googlespanish {
+    font-size: 14px;
+}
+
+#googlespanish a {
+    color: rgb(33, 33, 144);
 }
 
 header {
@@ -71,8 +122,16 @@ a {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(236, 233, 233);
+    margin: 0px;
 }
 
-.test {
-    color: blue;
+#left-footer, #right-footer {
+    padding: 15px;
+}
+
+.footer-content {
+    color: gray;
 }
